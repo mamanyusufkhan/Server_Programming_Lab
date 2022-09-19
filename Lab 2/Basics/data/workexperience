@@ -1,0 +1,17 @@
+{
+  "1": {
+    "role": "Front End Developer / w3schools.com",
+    "time": "Jan 2015 - Current",
+    "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+  },
+  "2": {
+    "role": "Web Developer / something.com",
+    "time": "Mar 2012 - Dec 2014",
+    "description": "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+  },
+  "3": {
+    "role": "Graphic Designer / designsomething.com",
+    "time": "Jun 2010 - Mar 2012",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  }
+}

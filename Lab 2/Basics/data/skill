@@ -1,0 +1,18 @@
+{
+  "1": {
+    "type": "Adobe Photoshop",
+    "width": 90
+  },
+  "2": {
+    "type": "Photography",
+    "width": 80
+  },
+  "3": {
+    "type": "Illustrator",
+    "width": 75
+  },
+  "4": {
+    "type": "Media",
+    "width": 50
+  }
+}
