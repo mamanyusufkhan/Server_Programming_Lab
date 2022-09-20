@@ -13,6 +13,29 @@ const getCV = (req, res) => {
   skill = fs.readFileSync("data/skill", { encoding: "utf-8" });
   skill = JSON.parse(String(skill));
 
+  console.log(req.body)
+  
+  var name = req.body.name;
+  if (name == null){
+    name = "Maman Yusuf Khan";
+  }
+  var occupation = req.body.occupation;
+  if (occupation == null){
+    occupation = "Designer";
+  }
+  var address = req.body.address;
+  if (address == null){
+    address = "London, UK";
+  }
+  var email = req.body.email;
+  if (email == null){
+    email = "ex@mail.com";
+  }
+  var number = req.body.number;
+  if (number == null){
+    number = 1224435534;
+  }
+
 
 
   edus = [];
@@ -38,7 +61,9 @@ const getCV = (req, res) => {
   
 
 
-  res.render("cv", { name: "Maman Yusuf Khan", educations: edus , workexperience: works, language: lang, skill: sk});
+  res.render("cv", { name: name, occupation: occupation, address: address, email: email, number: number, educations: edus , workexperience: works, language: lang, skill: sk});
 };
+
+
 
 module.exports = { getCV: getCV };

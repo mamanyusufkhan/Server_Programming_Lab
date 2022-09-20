@@ -2,6 +2,8 @@ const express = require("express"); //Includes the express library
 const app = express(); //Creates an Express Application
 const router = require("./router");
 const port = 3000;
+const bodyparser = require("body-parser");
+
 
 /*** 
 app.get() takes a callback function as an argument that will be invoked
@@ -19,7 +21,7 @@ response to any HTTP method.
 //   res.send("Hello World!");
 // });
 app.use(express.static("public"));
-
+app.use(bodyparser({extended:false}));
 app.set("view engine", "ejs"); // Setting EJS as template engine
 
 app.set("views", __dirname + "/views"); // Setting the directory for the view files
